@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cd db && migrate-mongo up && cd .. && nodemon ./index.js"
+    "dev": "cd db && migrate-mongo up && cd .. && nodemon ./app.js"
   },
   "keywords": [],
   "author": "",
