@@ -49,7 +49,7 @@ export const deleteBlog = async (req, res) => {
 export const deleteUser = async (req, res) => {
   const { id } = req.params;
 
-  const result = await Blog.findByIdAndUpdate(id, {sold: true});
+  const result = await Blog.findByIdAndUpdate(id);
 
   res.status(200).send("User deleted successfully");
 }
