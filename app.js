@@ -5,7 +5,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import { createRequire } from 'module';
-import { config } from 'dotenv';
+import 'dotenv/config';
 import { logger } from './log-middleware.js';
 
 const require = createRequire(import.meta.url);
