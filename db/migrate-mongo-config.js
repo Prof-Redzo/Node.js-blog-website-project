@@ -33,4 +33,4 @@ const config = {
   moduleSystem: 'commonjs',
 };
 
-module.exports = config;
+export default config;
